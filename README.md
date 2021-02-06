@@ -11,7 +11,7 @@ Lafzi adalah sebuah tool pencari ayat Al-Qur'an dengan kata kata yang diingin ka
 ## Contoh
 
 ```javascript
-const cari = require("lafzi-js");
+const cari = require("@fdciabdul/lafzi-js");
 
 async function cariayat() {
   const cari = await cari.ayat("kun+ina");
