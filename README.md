@@ -4,7 +4,7 @@ Lafzi adalah sebuah tool pencari ayat Al-Qur'an dengan kata kata yang diingin ka
 
 ## Install lafzi 
 
-> npm install lafzi-js
+> npm install @fdciabdul/lafzi-js
 
 ## Contoh
 
