@@ -1,0 +1,24 @@
+{
+  "name": "lafzi-js",
+  "version": "1.0.0",
+  "description": "Pencari Lafadz Qu'an",
+  "main": "test.js",
+  "scripts": {
+    "test": "node /test/cari.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdciabdul/lafzi-js.git"
+  },
+  "keywords": [
+    "Cari",
+    "lafadz",
+    "Qur'an"
+  ],
+  "author": "Abdul Muttaqin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdciabdul/lafzi-js/issues"
+  },
+  "homepage": "https://github.com/fdciabdul/lafzi-js#readme"
+}
