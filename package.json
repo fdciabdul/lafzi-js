@@ -1,10 +1,10 @@
 {
-  "name": "lafzi-js",
-  "version": "1.0.0",
+  "name": "@fdciabdul/lafzi-js",
+  "version": "1.0.5",
   "description": "Pencari Lafadz Qu'an",
   "main": "test.js",
   "scripts": {
-    "test": "node /test/cari.js"
+    "test": "node ./test/cari.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fdciabdul/lafzi-js/issues"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "urlencode": "^1.1.0"
   },
   "homepage": "https://github.com/fdciabdul/lafzi-js#readme"
 }
