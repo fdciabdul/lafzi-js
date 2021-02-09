@@ -1,8 +1,6 @@
 const axios = require('axios')
 const cheerio = require('cheerio');
-
-// Mendefinisikan header
-
+const urlencode = require('urlencode');
 const config = {
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
@@ -11,7 +9,7 @@ const config = {
 
 function ayat(kata) {
     return new Promise(resolve => {
-        var url = "https://laqin-wap.herokuapp.com/web/search.php?q=" + kata;
+        var url = "https://laqin-wap.herokuapp.com/web/search.php?q=" + urlencode(kata);
         axios.get(url, config)
             .then((result) => {
                 let $ = cheerio.load(result.data);
